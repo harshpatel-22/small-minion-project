@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(1, 1, 37);
+    margin: 10%;
+}
+.container{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    gap: 5px;    
+}    
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease 0.3s;
+}
+img:hover{
+    width: 80%;
+    cursor: pointer;
+}
